@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Pesanan Sudah Selesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="TextView"
+        android:paddingTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/TVnamakue"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_gravity="center"
+        android:paddingTop="10sp"
+        android:id="@+id/gambarkue" />
+
+    <RelativeLayout
+        android:layout_width="291dp"
+        android:layout_height="80dp"
+        android:paddingLeft="50dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVpesanpengirim"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/TVpengirim"
+            android:layout_alignStart="@+id/TVpengirim" />
+
+        <TextView
+            android:text="To       :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_alignTop="@+id/TVpengirim"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVpengirim"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="From  :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_weight="0.11">
+
+        <TextView
+            android:text="Ucapan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVkepada"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

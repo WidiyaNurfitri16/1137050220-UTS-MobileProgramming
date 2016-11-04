@@ -1,0 +1,44 @@
+1. <ImageView/>
+
+2. atribut dari tag xml
+
+3. iLikePracticeSets
+theBest
+
+4. RelativeLayout/RootLayout, LinearLayout/group view.
+
+5. <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    
+   android:layout_width="match_parent"
+    
+   android:layout_height="match_parent">
+
+    
+   <Button
+        
+   android:id="@+id/lyla_text_view"
+        
+   android:layout_width="wrap_content"
+        
+   android:layout_height="wrap_content"
+ 
+   android:layout_alignParentBottom="true"
+   android:layout_centerHorizontal="true"
+6   
+   android:textSize="24sp"
+    
+   android:text="Click Me"
+        
+   android:layout_alignParentBottom="true"
+       
+   android:layout_centerHorizontal="true" />
+   
+</RelativeLayout>
+
+6. Pada layout bagian pertama menggunakan Layout Linear dengan orientation vertical,
+   sehingga tampilan TextView tersusun secara vertical ke bawah.
+   Sedangkan, Layout kedua menggunakan Layout Linear dengan orientation horizontal,
+   sehingga tampilan TextView tersusun secara horizontal ke samping.
